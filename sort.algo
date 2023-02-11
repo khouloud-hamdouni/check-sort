@@ -1,0 +1,24 @@
+ALGORITHM cards
+VAR
+    i: integer;
+    j:integer;
+    key:integer;
+    Tab :  array of integer [];
+BEGIN
+    for ( i:=0;i<n,i++)
+    {
+        key:=Tab[i]
+        
+        j:i-1;
+
+    }
+    WHILE (j>=0 && arr[j] > key) DO
+    {
+        arr[j + 1] = arr[j]; 
+            j = j - 1; 
+        } 
+        arr[j + 1] = key; 
+    } 
+} 
+    END_WHILE
+END
